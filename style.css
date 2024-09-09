@@ -78,7 +78,7 @@ label {
     position: absolute;
     transform: translate(-50%);
     bottom: 0px;
-
+    display: none;
     margin-bottom: 10px;
 }
 
@@ -88,3 +88,22 @@ img {
 }
 
 
+
+.bandeira{
+    display: inline-block;
+    left: 25px;
+    top: 300px;
+    position:fixed;
+}
+
+.local{
+    display: inline-block;
+    right: 25px;
+    top: 300px;
+    position:fixed;
+}
+
+.expoxicao-img{
+    width: 550px;
+    height: 350px;
+}
