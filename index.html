@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, World!</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Bem vindo ao <span>World!</span></h1>
+
+            <p>Aqui você pode pesquisar por um país e sanar todas as suas curiosidades a respeito dele!</p>
+
+            <p>Começe pelas Américas!</p>
+        </section>
+
+        <section class="section-form">
+            <label for="selecionaNivel">Modo de <br> pesquisa</label>
+
+            
+            <form action="#">
+                <select id="selecionaNivel" name="selecionaNivel" onchange="modPlaceHol()">
+                    <option value="pais">País</option>
+                    <option value="cidade">Cidade</option>
+                    <option value="continente">Continente</option>
+                </select>
+
+                <input type="text" name="valorBusca" id="valorBusca" placeholder="Nome do país">
+
+                <input type="submit" value="Buscar">
+            </form>
+        </section>
+    </main>
+
+    <div class="slide">
+        <img src="media/slides/brasil.webp" alt="bandeiras de países do continente americano">
+    </div>
+</body>
+</html>
