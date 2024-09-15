@@ -1,11 +1,5 @@
 body {
     background-color: rgb(44, 65, 158);
-    background-image: url(media/terraT.png);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    background-attachment: fixed;
-    background-position: center;
-    
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -58,6 +52,7 @@ select{
     border-radius: 10px;
     font-size: 17px;
 }
+
 input::placeholder{
     font-size: 17px;
 }
@@ -68,42 +63,4 @@ label {
     margin-bottom: 5px;
     font-size: medium;
     line-height: 0.9em;
-}
-
-
-
-
-.slide{ 
-    left:50%;
-    position: absolute;
-    transform: translate(-50%);
-    bottom: 0px;
-    display: none;
-    margin-bottom: 10px;
-}
-
-img {
-    width: 250px;
-    height: 150px; 
-}
-
-
-
-.bandeira{
-    display: inline-block;
-    left: 25px;
-    top: 300px;
-    position:fixed;
-}
-
-.local{
-    display: inline-block;
-    right: 25px;
-    top: 300px;
-    position:fixed;
-}
-
-.expoxicao-img{
-    width: 550px;
-    height: 350px;
 }

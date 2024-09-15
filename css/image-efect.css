@@ -1,0 +1,52 @@
+.slide{ 
+    left:50%;
+    position: absolute;
+    transform: translate(-50%);
+    bottom: 0px;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.silide img {
+    width: 250px;
+    height: 150px; 
+}
+
+
+
+.bandeira{
+    display: block;
+    margin-left: 25px;
+    margin-top: 60px;
+    float: left;
+}
+
+.local{
+    display: block;
+    margin-right: 25px;
+    margin-top: 60px;
+    float: right;
+
+    z-index: 3;
+}
+
+.expoxicao-img{
+    width: 550px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.fundo{
+    width: 1200px;
+    height: 1200px;
+  
+    margin: -400px -30%;
+
+    background-image: url('/media/imgs/logo-terra.png');
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+
+    z-index: 1;
+    /*opacity: 60%;*/
+}

@@ -1,9 +1,9 @@
 // Array com objetos contendo a bandeira e o ponto turístico
 const locations = [
-    { flag: './media/bandeiras/brasil.webp', spot: './media/locais/cristo.webp' },
-    { flag: './media/bandeiras/argentina.webp', spot: './media/locais/farol-arg.jpg' },
-    { flag: './media/bandeiras/usa.webp', spot: './media/locais/liberdade.jpg' },
-    {flag: './media/bandeiras/canada.webp', spot: './media/locais/vancouver.jpg'},
+    { flag: './media/imgs/bandeiras/brasil.webp', spot: './media/imgs/locais/cristo.webp' },
+    { flag: './media/imgs/bandeiras/argentina.webp', spot: './media/imgs/locais/farol-arg.jpg' },
+    { flag: './media/imgs/bandeiras/usa.webp', spot: './media/imgs/locais/liberdade.jpg' },
+    {flag: './media/imgs/bandeiras/canada.webp', spot: './media/imgs/locais/vancouver.jpg'},
     // Adicione mais pares de imagens conforme necessário
 ];
 
