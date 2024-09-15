@@ -33,7 +33,9 @@
 .expoxicao-img{
     width: 550px;
     height: 350px;
-    border-radius: 15px;
+    border-radius: 20px;
+
+    box-shadow: 1px 1px 15px black;
 }
 
 .fundo{
